@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: notification-service
-          image: ghcr.io/ilyavorwork/notification-service:1.0.0
+          image: ghcr.io/ilyavorwork/notification-service:latest
           imagePullPolicy: IfNotPresent
           livenessProbe:
             httpGet:
